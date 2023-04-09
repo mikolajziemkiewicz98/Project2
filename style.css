@@ -121,7 +121,6 @@ html {
 
 .emploees {
   text-align : center;
-  margin     : 40px 0px;
   line-height: 56px;
 }
 
@@ -131,7 +130,7 @@ html {
 }
 
 .emploee-image {
-  margin         : auto;
+  margin         : 0 auto;
   width          : 200px;
   height         : 200px;
   border-radius  : 50%;
@@ -187,12 +186,11 @@ html {
   display        : flex;
   justify-content: center;
   align-items    : center;
-  height         : 300px;
-  width          : 310px;
+  height         : 280px;
+  width          : 290px;
   border         : 3px solid black;
   position       : relative;
-  margin-top     : 5%;
-  margin-bottom  : 5%;
+  margin         : 5% 0%;
   transition     : 0.5s;
 }
 
@@ -236,16 +234,23 @@ html {
     text-decoration: none;
   }
 
-  .emploee-1,
+  .innovators {
+    padding: 40px 0px;
+  }
+
+  .emploee-1 {
+    display: flex;
+    margin : 0px 0px 15px 0px;
+  }
+
   .emploee-2 {
-    display      : flex;
-    margin-top   : 15px;
-    margin-bottom: 15px;
+    display: flex;
+    margin : 15px 0px 0px 0px;
   }
 
   .emploee-1:nth-of-type(odd) {
-    flex-direction: row;
-    text-align    : left;
+    flex-direction: initial;
+    text-align    : initial;
   }
 
   .emploee-2:nth-of-type(even) {
@@ -253,19 +258,12 @@ html {
     text-align    : right;
   }
 
-  .emploee-image {
-    width          : 200px;
-    height         : 200px;
-    border-radius  : 50%;
-    background-size: cover;
-  }
-
   .emploee-1:nth-of-type(1) .emploee-image {
-    margin-right: 40px;
+    margin: 0px 40px 0px 0px;
   }
 
   .emploee-2:nth-of-type(2) .emploee-image {
-    margin-left: 40px;
+    margin: 0px 0px 0px 40px;
   }
 
   .name {
@@ -279,11 +277,16 @@ html {
     flex-direction : column;
   }
 
+  .offer {
+    margin: initial;
+  }
+
   .offer-container {
     display              : grid;
     grid-template-columns: auto auto;
     gap                  : 35px;
     justify-content      : center;
+    padding-top          : 5%;
   }
 
   .box {
@@ -338,14 +341,16 @@ html {
   }
 
   .emploees {
-    display: flex;
+    display       : flex;
+    padding-bottom: 3%;
   }
 
-  .emploee-1,
-  .emploee-2 {
-    height       : 200px;
+  .emploee-1 {
     margin-bottom: 15px;
-    margin-top   : 15px;
+  }
+
+  .emploee-2 {
+    margin-top: 15px;
   }
 
   .emploee-image {
@@ -368,7 +373,7 @@ html {
   }
 
   .products {
-    height    : 110vh;
+    padding   : 40px 0px;
     text-align: initial;
   }
 

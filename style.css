@@ -224,8 +224,7 @@ html {
 
   .links {
     display        : flex;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .list-item-1,
@@ -290,10 +289,9 @@ html {
   }
 
   .box {
-    height       : 200px;
-    width        : 300px;
-    margin-top   : 0px;
-    margin-bottom: 0px;
+    height: 200px;
+    width : 300px;
+    margin: 0px;
   }
 
   .box:active {
@@ -358,8 +356,8 @@ html {
   }
 
   .emploee-1:nth-of-type(odd) {
-    flex-direction: row;
-    text-align    : left;
+    flex-direction: initial;
+    text-align    : initial;
   }
 
   .emploee-2:nth-of-type(even) {
@@ -369,7 +367,6 @@ html {
 
   .text-container {
     padding-top: 5%;
-    height     : fit-content;
   }
 
   .products {
